@@ -6,7 +6,7 @@
 
 ## 🔗 Live Demo
 
-**[→ View Live Site](https://yourusername.github.io/meridian-consulting)**
+**[→ View Live Site](https://akerolos.github.io/meridian-consulting/)**
 
 ---
 
