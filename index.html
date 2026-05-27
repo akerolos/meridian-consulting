@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Meridian Consulting — Strategic advisory for ambitious organizations." />
+  <title>Meridian Consulting</title>
+
+  <!-- Google Fonts: Poppins -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300&display=swap"
+    rel="stylesheet"
+  />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ============================================================
+       NAVIGATION
+  ============================================================ -->
+  <header class="site-header" id="site-header">
+    <nav class="navbar container" aria-label="Primary navigation">
+
+      <!-- Brand -->
+      <a href="#hero" class="nav-brand" aria-label="Meridian Consulting home">
+        <span class="brand-mark" aria-hidden="true">M</span>
+        <span class="brand-name">Meridian</span>
+      </a>
+
+      <!-- Desktop links -->
+      <ul class="nav-links" role="list">
+        <li><a href="#services" class="nav-link">Services</a></li>
+        <li><a href="#about"   class="nav-link">About</a></li>
+        <li><a href="#faq"     class="nav-link">FAQ</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+
+      <!-- Desktop CTA -->
+      <a href="#contact" class="btn btn-primary nav-cta">Get in Touch</a>
+
+      <!-- Hamburger (mobile) -->
+      <button
+        class="hamburger"
+        id="hamburger-btn"
+        aria-controls="mobile-menu"
+        aria-expanded="false"
+        aria-label="Open navigation menu"
+      >
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+      </button>
+
+    </nav>
+
+    <!-- Mobile menu -->
+    <div class="mobile-menu" id="mobile-menu" aria-hidden="true" role="dialog" aria-label="Mobile navigation">
+      <ul class="mobile-nav-links" role="list">
+        <li><a href="#services" class="mobile-nav-link">Services</a></li>
+        <li><a href="#about"   class="mobile-nav-link">About</a></li>
+        <li><a href="#faq"     class="mobile-nav-link">FAQ</a></li>
+        <li><a href="#contact" class="mobile-nav-link">Contact</a></li>
+      </ul>
+      <a href="#contact" class="btn btn-primary mobile-cta">Get in Touch</a>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ============================================================
+         HERO
+    ============================================================ -->
+    <section class="hero" id="hero" aria-labelledby="hero-heading">
+      <div class="hero-inner container">
+
+        <div class="hero-eyebrow">
+          <span class="eyebrow-dot" aria-hidden="true"></span>
+          Strategic Advisory &amp; Management Consulting
+        </div>
+
+        <h1 class="hero-heading" id="hero-heading">
+          We Help Organizations<br />
+          <em>Think Clearly,</em><br />
+          Move Decisively.
+        </h1>
+
+        <p class="hero-sub">
+          Meridian partners with leadership teams to cut through complexity,
+          sharpen strategy, and deliver measurable outcomes that endure.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#services" class="btn btn-primary btn-lg">Explore Our Services</a>
+          <a href="#about"    class="btn btn-ghost  btn-lg">Our Approach</a>
+        </div>
+
+        <div class="hero-stats" aria-label="Company statistics">
+          <div class="stat">
+            <span class="stat-number">120<sup>+</sup></span>
+            <span class="stat-label">Engagements Delivered</span>
+          </div>
+          <div class="stat-divider" aria-hidden="true"></div>
+          <div class="stat">
+            <span class="stat-number">18</span>
+            <span class="stat-label">Years of Practice</span>
+          </div>
+          <div class="stat-divider" aria-hidden="true"></div>
+          <div class="stat">
+            <span class="stat-number">94<sup>%</sup></span>
+            <span class="stat-label">Client Retention Rate</span>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Decorative background geometry -->
+      <div class="hero-bg-grid" aria-hidden="true"></div>
+      <div class="hero-accent-circle" aria-hidden="true"></div>
+    </section>
+
+    <!-- ============================================================
+         ABOUT / PHILOSOPHY
+    ============================================================ -->
+    <section class="about section-pad" id="about" aria-labelledby="about-heading">
+      <div class="container about-grid">
+
+        <div class="about-text">
+          <span class="section-label">Our Philosophy</span>
+          <h2 class="section-heading" id="about-heading">
+            Substance Over<br />Spectacle
+          </h2>
+          <p class="body-text">
+            We believe the best consulting work is invisible — its results speak through
+            your organization's performance, culture, and resilience, not through
+            slide decks or jargon.
+          </p>
+          <p class="body-text">
+            Every engagement begins with deep listening. We immerse ourselves in your
+            context before offering a single recommendation, because generic frameworks
+            rarely solve specific problems.
+          </p>
+          <a href="#contact" class="btn btn-outline mt-sm">Start a Conversation</a>
+        </div>
+
+        <div class="about-pillars" aria-label="Core values">
+          <article class="pillar-card">
+            <div class="pillar-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+                <path d="M2 12C2 6.48 6.48 2 12 2s10 4.48 10 10-4.48 10-10 10S2 17.52 2 12z"/>
+                <path d="M12 8v4l3 3"/>
+              </svg>
+            </div>
+            <h3 class="pillar-title">Rigorous Analysis</h3>
+            <p class="pillar-text">Data-driven diagnosis that separates symptoms from root causes.</p>
+          </article>
+          <article class="pillar-card">
+            <div class="pillar-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+                <path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/>
+                <circle cx="9" cy="7" r="4"/>
+                <path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75"/>
+              </svg>
+            </div>
+            <h3 class="pillar-title">Collaborative Spirit</h3>
+            <p class="pillar-text">We work alongside your team, not apart from it.</p>
+          </article>
+          <article class="pillar-card">
+            <div class="pillar-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+                <polyline points="22 7 13.5 15.5 8.5 10.5 2 17"/>
+                <polyline points="16 7 22 7 22 13"/>
+              </svg>
+            </div>
+            <h3 class="pillar-title">Lasting Impact</h3>
+            <p class="pillar-text">Recommendations built for execution, not presentation.</p>
+          </article>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ============================================================
+         SERVICES
+    ============================================================ -->
+    <section class="services section-pad bg-light" id="services" aria-labelledby="services-heading">
+      <div class="container">
+
+        <header class="section-header">
+          <span class="section-label">What We Do</span>
+          <h2 class="section-heading" id="services-heading">Our Core Services</h2>
+          <p class="section-sub">
+            Three focused practice areas, each designed to create compounding value
+            across your organization.
+          </p>
+        </header>
+
+        <div class="services-grid" role="list">
+
+          <!-- Card 1 -->
+          <article class="service-card" role="listitem">
+            <div class="card-number" aria-hidden="true">01</div>
+            <div class="card-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <path d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/>
+              </svg>
+            </div>
+            <h3 class="card-title">Corporate Strategy</h3>
+            <p class="card-text">
+              From market positioning to growth architecture, we help leadership
+              teams define a clear path forward — and rally the organization behind it.
+            </p>
+            <ul class="card-list" aria-label="Corporate Strategy includes">
+              <li>Market &amp; Competitive Analysis</li>
+              <li>Growth &amp; Portfolio Strategy</li>
+              <li>Organizational Alignment</li>
+            </ul>
+            <a href="#contact" class="card-link" aria-label="Learn more about Corporate Strategy">
+              Enquire <span aria-hidden="true">→</span>
+            </a>
+          </article>
+
+          <!-- Card 2 -->
+          <article class="service-card service-card--featured" role="listitem">
+            <div class="card-number" aria-hidden="true">02</div>
+            <div class="card-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <rect x="3" y="3" width="18" height="18" rx="2" ry="2"/>
+                <line x1="3" y1="9" x2="21" y2="9"/>
+                <line x1="9" y1="21" x2="9" y2="9"/>
+              </svg>
+            </div>
+            <h3 class="card-title">Operational Excellence</h3>
+            <p class="card-text">
+              We diagnose operational friction, streamline processes, and embed
+              a culture of continuous improvement that outlasts our engagement.
+            </p>
+            <ul class="card-list" aria-label="Operational Excellence includes">
+              <li>Process Redesign &amp; Lean Transformation</li>
+              <li>Supply Chain Optimization</li>
+              <li>Performance Management Systems</li>
+            </ul>
+            <a href="#contact" class="card-link" aria-label="Learn more about Operational Excellence">
+              Enquire <span aria-hidden="true">→</span>
+            </a>
+          </article>
+
+          <!-- Card 3 -->
+          <article class="service-card" role="listitem">
+            <div class="card-number" aria-hidden="true">03</div>
+            <div class="card-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <circle cx="12" cy="12" r="10"/>
+                <line x1="2" y1="12" x2="22" y2="12"/>
+                <path d="M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z"/>
+              </svg>
+            </div>
+            <h3 class="card-title">Digital Transformation</h3>
+            <p class="card-text">
+              Beyond technology implementation — we guide organizations through
+              the cultural and structural changes that make digital investments stick.
+            </p>
+            <ul class="card-list" aria-label="Digital Transformation includes">
+              <li>Digital Readiness Assessment</li>
+              <li>Technology Roadmapping</li>
+              <li>Change Management</li>
+            </ul>
+            <a href="#contact" class="card-link" aria-label="Learn more about Digital Transformation">
+              Enquire <span aria-hidden="true">→</span>
+            </a>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         FAQ ACCORDION
+    ============================================================ -->
+    <section class="faq section-pad" id="faq" aria-labelledby="faq-heading">
+      <div class="container faq-layout">
+
+        <div class="faq-intro">
+          <span class="section-label">Common Questions</span>
+          <h2 class="section-heading" id="faq-heading">
+            Frequently<br />Asked
+          </h2>
+          <p class="body-text">
+            Transparent answers to the questions we hear most often from
+            prospective clients.
+          </p>
+        </div>
+
+        <div class="faq-list" role="list">
+
+          <!-- Item 1 -->
+          <div class="faq-item" role="listitem">
+            <button
+              class="faq-trigger"
+              aria-expanded="false"
+              aria-controls="faq-panel-1"
+              id="faq-btn-1"
+            >
+              <span>How long does a typical engagement take?</span>
+              <span class="faq-icon" aria-hidden="true"></span>
+            </button>
+            <div
+              class="faq-panel"
+              id="faq-panel-1"
+              role="region"
+              aria-labelledby="faq-btn-1"
+            >
+              <p>
+                Engagements vary widely by scope. A focused diagnostic sprint runs
+                four to six weeks; a full strategy and implementation program can
+                span six to twelve months. We always define clear milestones and
+                decision gates so you maintain control of timeline and investment.
+              </p>
+            </div>
+          </div>
+
+          <!-- Item 2 -->
+          <div class="faq-item" role="listitem">
+            <button
+              class="faq-trigger"
+              aria-expanded="false"
+              aria-controls="faq-panel-2"
+              id="faq-btn-2"
+            >
+              <span>Do you work with companies outside our industry?</span>
+              <span class="faq-icon" aria-hidden="true"></span>
+            </button>
+            <div
+              class="faq-panel"
+              id="faq-panel-2"
+              role="region"
+              aria-labelledby="faq-btn-2"
+            >
+              <p>
+                Absolutely. While we have deep expertise in financial services,
+                technology, and industrials, many of our most impactful engagements
+                have come from bringing cross-industry pattern recognition to a
+                client's challenge. Fresh perspective combined with rigorous method
+                often produces the sharpest insights.
+              </p>
+            </div>
+          </div>
+
+          <!-- Item 3 -->
+          <div class="faq-item" role="listitem">
+            <button
+              class="faq-trigger"
+              aria-expanded="false"
+              aria-controls="faq-panel-3"
+              id="faq-btn-3"
+            >
+              <span>What size organizations do you work with?</span>
+              <span class="faq-icon" aria-hidden="true"></span>
+            </button>
+            <div
+              class="faq-panel"
+              id="faq-panel-3"
+              role="region"
+              aria-labelledby="faq-btn-3"
+            >
+              <p>
+                Our clients range from growth-stage companies (Series B and beyond)
+                to large multinationals. We deliberately keep our team lean so that
+                senior advisors remain directly involved regardless of client size —
+                you will never be handed to a junior team after the proposal phase.
+              </p>
+            </div>
+          </div>
+
+          <!-- Item 4 -->
+          <div class="faq-item" role="listitem">
+            <button
+              class="faq-trigger"
+              aria-expanded="false"
+              aria-controls="faq-panel-4"
+              id="faq-btn-4"
+            >
+              <span>How do you structure fees?</span>
+              <span class="faq-icon" aria-hidden="true"></span>
+            </button>
+            <div
+              class="faq-panel"
+              id="faq-panel-4"
+              role="region"
+              aria-labelledby="faq-btn-4"
+            >
+              <p>
+                We offer fixed-fee project pricing as our default — it aligns our
+                incentives with delivering outcomes, not billing hours. For long-term
+                advisory retainers, we use a monthly structure with clearly scoped
+                deliverables. We are transparent about fees from the first conversation.
+              </p>
+            </div>
+          </div>
+
+          <!-- Item 5 -->
+          <div class="faq-item" role="listitem">
+            <button
+              class="faq-trigger"
+              aria-expanded="false"
+              aria-controls="faq-panel-5"
+              id="faq-btn-5"
+            >
+              <span>How do we get started?</span>
+              <span class="faq-icon" aria-hidden="true"></span>
+            </button>
+            <div
+              class="faq-panel"
+              id="faq-panel-5"
+              role="region"
+              aria-labelledby="faq-btn-5"
+            >
+              <p>
+                Use the contact form below or email us directly. We will schedule a
+                no-obligation discovery call within 48 hours. That conversation helps
+                us understand your context and helps you assess whether we are the
+                right partner — no pressure, no pitch.
+              </p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         CONTACT
+    ============================================================ -->
+    <section class="contact section-pad bg-navy" id="contact" aria-labelledby="contact-heading">
+      <div class="container contact-layout">
+
+        <div class="contact-intro">
+          <span class="section-label section-label--light">Let's Talk</span>
+          <h2 class="section-heading section-heading--light" id="contact-heading">
+            Ready to Move<br />Forward?
+          </h2>
+          <p class="body-text body-text--light">
+            Tell us about your challenge. A senior Meridian advisor will respond
+            within one business day.
+          </p>
+
+          <address class="contact-details">
+            <div class="contact-detail">
+              <span class="detail-label">Email</span>
+              <a href="mailto:hello@meridianconsulting.com" class="detail-value">
+                hello@meridianconsulting.com
+              </a>
+            </div>
+            <div class="contact-detail">
+              <span class="detail-label">Phone</span>
+              <a href="tel:+12125550100" class="detail-value">+1 (212) 555-0100</a>
+            </div>
+            <div class="contact-detail">
+              <span class="detail-label">Office</span>
+              <span class="detail-value">350 Fifth Avenue, New York, NY 10118</span>
+            </div>
+          </address>
+        </div>
+
+        <!-- Contact Form -->
+        <form
+          class="contact-form"
+          id="contact-form"
+          novalidate
+          aria-label="Contact form"
+        >
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name" class="form-label">Full Name <span aria-hidden="true">*</span></label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                class="form-input"
+                placeholder="Jane Smith"
+                autocomplete="name"
+                required
+                aria-required="true"
+                aria-describedby="name-error"
+              />
+              <span class="form-error" id="name-error" role="alert" aria-live="polite"></span>
+            </div>
+            <div class="form-group">
+              <label for="company" class="form-label">Company</label>
+              <input
+                type="text"
+                id="company"
+                name="company"
+                class="form-input"
+                placeholder="Acme Corp"
+                autocomplete="organization"
+              />
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="email" class="form-label">Email Address <span aria-hidden="true">*</span></label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              class="form-input"
+              placeholder="jane@example.com"
+              autocomplete="email"
+              required
+              aria-required="true"
+              aria-describedby="email-error"
+            />
+            <span class="form-error" id="email-error" role="alert" aria-live="polite"></span>
+          </div>
+
+          <div class="form-group">
+            <label for="service" class="form-label">Area of Interest</label>
+            <select id="service" name="service" class="form-input form-select">
+              <option value="" disabled selected>Select a service…</option>
+              <option value="strategy">Corporate Strategy</option>
+              <option value="operations">Operational Excellence</option>
+              <option value="digital">Digital Transformation</option>
+              <option value="other">Other / General Enquiry</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="message" class="form-label">Your Message <span aria-hidden="true">*</span></label>
+            <textarea
+              id="message"
+              name="message"
+              class="form-input form-textarea"
+              placeholder="Briefly describe your challenge or objective…"
+              rows="5"
+              required
+              aria-required="true"
+              aria-describedby="message-error"
+            ></textarea>
+            <span class="form-error" id="message-error" role="alert" aria-live="polite"></span>
+          </div>
+
+          <button type="submit" class="btn btn-primary btn-lg btn-submit" id="submit-btn">
+            Send Message
+            <span class="btn-loader" aria-hidden="true"></span>
+          </button>
+
+          <div class="form-success" id="form-success" role="alert" aria-live="polite" aria-atomic="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+              <polyline points="20 6 9 17 4 12"/>
+            </svg>
+            Thank you — we'll be in touch within one business day.
+          </div>
+
+        </form>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============================================================
+       FOOTER
+  ============================================================ -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container footer-grid">
+
+      <div class="footer-brand">
+        <a href="#hero" class="nav-brand footer-brand-link" aria-label="Back to top">
+          <span class="brand-mark" aria-hidden="true">M</span>
+          <span class="brand-name">Meridian</span>
+        </a>
+        <p class="footer-tagline">
+          Strategic clarity for<br />complex challenges.
+        </p>
+      </div>
+
+      <nav class="footer-nav" aria-label="Footer navigation">
+        <h3 class="footer-nav-title">Company</h3>
+        <ul role="list">
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <nav class="footer-nav" aria-label="Services navigation">
+        <h3 class="footer-nav-title">Services</h3>
+        <ul role="list">
+          <li><a href="#services">Corporate Strategy</a></li>
+          <li><a href="#services">Operational Excellence</a></li>
+          <li><a href="#services">Digital Transformation</a></li>
+        </ul>
+      </nav>
+
+      <div class="footer-legal">
+        <p class="footer-copy">
+          &copy; <span id="year"></span> Meridian Consulting Group. All rights reserved.
+        </p>
+        <div class="footer-links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Use</a>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
